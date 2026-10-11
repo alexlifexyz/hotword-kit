@@ -1,0 +1,18 @@
+<label for="input" style="display:block;font-weight:600;margin-bottom:8px">Your text</label>
+<textarea id="input" rows="6" placeholder="Paste or type here…"></textarea>
+<div class="grid" style="margin-top:16px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))">
+  <div class="card"><h3 id="w">0</h3><p>Words</p></div>
+  <div class="card"><h3 id="c">0</h3><p>Characters</p></div>
+  <div class="card"><h3 id="s">0</h3><p>Sentences</p></div>
+  <div class="card"><h3 id="r">0 min</h3><p>Reading time</p></div>
+</div>
+<script>
+  var box = document.getElementById("input");
+  box.addEventListener("input", function () {
+    var t = box.value, words = t.trim() ? t.trim().split(/\s+/).length : 0;
+    document.getElementById("w").textContent = words;
+    document.getElementById("c").textContent = t.length;
+    document.getElementById("s").textContent = (t.match(/[^.!?]+[.!?]+/g) || []).length;
+    document.getElementById("r").textContent = Math.ceil(words / 238) + " min";
+  });
+</script>

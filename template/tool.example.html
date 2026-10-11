@@ -1,0 +1,16 @@
+<!--
+  TODO：把这里换成真正的工具。
+  用户是冲着"能直接用"来的，工具本身才是排名和留存的关键。
+  可以是：纯前端 JS 小工具、调用你自己 API 的表单、嵌入的 iframe 等。
+  下面只是一个占位示例，改完后删掉这段注释。
+-->
+<label for="input" style="display:block;font-weight:600;margin-bottom:8px">Enter your text</label>
+<textarea id="input" rows="4" placeholder="Type or paste here…"></textarea>
+<div style="margin-top:12px"><button id="run" type="button">Generate</button></div>
+<div id="output" style="margin-top:16px;white-space:pre-wrap"></div>
+<script>
+  document.getElementById("run").addEventListener("click", function () {
+    var text = document.getElementById("input").value.trim();
+    document.getElementById("output").textContent = text ? "Result: " + text : "Please enter some text first.";
+  });
+</script>

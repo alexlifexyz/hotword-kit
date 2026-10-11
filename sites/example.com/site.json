@@ -1,0 +1,52 @@
+{
+  "keyword": "Word Counter",
+  "domain": "example.com",
+  "siteName": "Word Counter",
+  "lang": "en",
+  "accentColor": "#2563eb",
+  "title": "Word Counter – Count Words and Characters Online Free",
+  "description": "Free online word counter. Paste your text to instantly count words, characters, sentences and reading time. No sign-up, works in your browser.",
+  "h1": "Word Counter",
+  "intro": "Paste or type your text below to see the word count, character count, sentences and estimated reading time instantly. Everything runs in your browser, so your text never leaves your device.",
+  "features": [
+    {
+      "title": "Instant results",
+      "text": "Counts update as you type, with no button to press."
+    },
+    {
+      "title": "Private by design",
+      "text": "Your text is processed locally and never uploaded."
+    },
+    {
+      "title": "Free, no sign-up",
+      "text": "Open the page and start counting right away."
+    }
+  ],
+  "howTo": [
+    "Paste or type your text into the box above.",
+    "Read the counts below the box; they update live.",
+    "Copy the numbers into your essay, post or report."
+  ],
+  "faq": [
+    {
+      "q": "How does the word counter count words?",
+      "a": "It splits your text on spaces and line breaks and counts the resulting pieces, so hyphenated words count as one."
+    },
+    {
+      "q": "Is this word counter free?",
+      "a": "Yes. It is completely free with no limits or sign-up."
+    },
+    {
+      "q": "Is my text stored?",
+      "a": "No. All counting happens in your browser and nothing is sent to a server."
+    },
+    {
+      "q": "How is reading time calculated?",
+      "a": "We assume an average reading speed of 238 words per minute."
+    }
+  ],
+  "contactEmail": "hello@example.com",
+  "gaId": "",
+  "adsenseClient": "",
+  "updated": "2026-10-11"
+}
